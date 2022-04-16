@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Texturina:wght@300&display=swap');
+body{
+  padding: 5px;
+/*   align-content:center;
+  align-items:center;*/
+  
+  text-align:center; 
+  
+}
+#container{
+  width:25%;
+/*   background:pink; */
+  text-align:left;
+  margin: 100px auto;
+/*  margin: 25px 50px 75px 100px;
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px  */
+  
+}
+span{
+/*   font-family: 'Lato', sans-serif; */
+  font-family: 'Texturina', serif;
+  font-size: large;
+/*   font-weight: bold; */
+  margin: 5px;
+}
+#bmi{
+  font-size: x-large;
+}
+#bmiCategory{
+  font-size: normal;
+  opacity: 0.5;
+}
+input{
+  padding: 5px;
+  margin: 5px;
+}
+#btn{
+  padding:2px;
+  margin:3px;
+  background: white;
+  font-size: large;
+  width: 7em;
+  font-family: 'Texturina', serif;
+}
